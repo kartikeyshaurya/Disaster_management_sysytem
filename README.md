@@ -1,14 +1,31 @@
 # Disaster Response Pipeline Project
 
-### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+## Table of Content
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+ 1. Objective and a short summary 
+ 2. Whole Setup process 
+ 3. License
+ 4. Running the file 
+ 5. Moving forward 
+     * what we can together 
 
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
 
-3. Go to http://0.0.0.0:3001/
+
+## Objective 
+
+This project aim to build a NLP model to categorize the message in a real time .
+The dataset contained already labelled tewwts and messages from real disasters.
+and also the project is a part of udacity datascience course .
+
+This project is mainly compost of three parts :
+ 
+ 1. Processing part
+    * load the data and categories the dataset
+    * it also merge two dataset
+    * and then stores in a SQLite database
+
+2. Machile learning Pipeline 
+    * load the data from the sqlite data 
+    * splits it for training and testing and do respective jobs 
+    * At last export the final model as a pickle model 
+    
