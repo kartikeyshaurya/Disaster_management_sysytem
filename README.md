@@ -29,4 +29,20 @@ This project is mainly compost of three parts :
     * splits it for training and testing and do respective jobs 
     * At last export the final model as a pickle model 
 
-3. Running a web apps which can predict the output.  
+3. Running a web app which will predict the output.  
+
+<a name = "setup" >Setup processes </a>
+First lets see the structure of the file :-
+.
+    ├── app     
+    │   ├── run.py                           # Flask file that runs app
+    │   └── templates   
+    │       ├── go.html                      # Classification result page of web app
+    │       └── master.html                  # Main page of web app    
+    ├── data                   
+    │   ├── disaster_categories.csv          # Dataset including all the categories  
+    │   ├── disaster_messages.csv            # Dataset including all the messages
+    │   └── process_data.py                  # Data cleaning
+    ├── models
+    │   └── train_classifier.py              # Train ML model           
+    └── README.md
