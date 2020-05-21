@@ -2,15 +2,15 @@
 
 ## Table of Content
 
- 1. Objective and a short summary 
- 2. Whole Setup process 
- 3. License
- 4. Running the file 
- 5. Moving forward 
+ 1. [Objective and a short summary](#objective)
+ 2. [Whole Setup process](#setup) 
+ 3. [License](#Licence)
+ 4. [Running the file](#run)
+ 5. [Moving forward](#forward) 
      * what we can together 
 
 
-
+<a name="objective"></a>
 ## Objective 
 
 This project aim to build a NLP model to categorize the message in a real time .
@@ -28,4 +28,5 @@ This project is mainly compost of three parts :
     * load the data from the sqlite data 
     * splits it for training and testing and do respective jobs 
     * At last export the final model as a pickle model 
-    
+
+3. Running a web apps which can predict the output.  
