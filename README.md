@@ -85,7 +85,6 @@ First lets see the structure of the file :-
 <a name = "forward" > </a>
 ## Moving Forward
 
-    * I am looking forward to create a project woth colabaration with somepeople.And also The image below is just my imagination
-      ,I am open for suggestion and change
+    * I am looking forward to create a project woth colabaration with somepeople.And also The image below is just my imagination , i am open for suggestion and change
 
 !["Screenshot"](web_future.png)
